@@ -1,0 +1,39 @@
+{
+  "name": "edge-impulse-example-linux-with-twilio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Example of doing object detection with Edge Impulse for Linux that relays information to Twilio",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc -p .",
+    "lint": "./node_modules/tslint/bin/tslint -p tsconfig.json"
+  },
+  "main": "build/webserver-twilio.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edgeimpulse/example-linux-with-twilio.git"
+  },
+  "author": "Jan Jongboom <hello@edgeimpulse.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/edgeimpulse/example-linux-with-twilio/issues"
+  },
+  "homepage": "https://github.com/edgeimpulse/example-linux-with-twilio#readme",
+  "dependencies": {
+    "edge-impulse-linux": "^1.1.4",
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "sharp": "^0.27.2",
+    "socket.io": "^2.3.0",
+    "twilio": "^3.59.0",
+    "ws": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/sharp": "^0.27.1",
+    "@types/socket.io": "^2.1.4",
+    "@types/request": "^2.48.5",
+    "@types/ws": "^6.0.3",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.3"
+  }
+}
