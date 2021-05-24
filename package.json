@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/edgeimpulse/example-linux-with-twilio#readme",
   "dependencies": {
-    "edge-impulse-linux": "^1.1.4",
+    "edge-impulse-linux": "^1.2.5",
     "express": "^4.17.1",
     "request": "^2.88.2",
     "sharp": "^0.27.2",
